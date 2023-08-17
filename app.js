@@ -17,10 +17,10 @@ function dessin() {
     ctx.arc(x, y, 100, 0, 2 * Math.PI);
     ctx.stroke();
 
-    ctx.rotate(60 * Math.PI / 180);
-    tour = tour + 60;
+    ctx.rotate(10 * Math.PI / 360);
+    tour = tour + 10;
 
-    if (tour> 7200) {
+    if (tour> 10800) {
         return;
     }
     if (tour % 360 === 0) {
